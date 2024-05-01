@@ -1,0 +1,19 @@
+(
+    ADD_PAGE,
+    PAGE_CUSTOMIZE,
+    CHANGE_NAME,
+    CHANGE_AGE,
+    CHANGE_CITY,
+    CHANGE_GENDER,
+    CHANGE_SEARCH_OF,
+    CHANGE_MUSIC,
+    CHANGE_DESCRIPTION,
+    CHANGE_IMAGES,
+    STOPPING,
+    START_OVER,
+) = map(chr, range(1, 13))
+
+START = "start"
+STOP = "stop"
+MALE = "MALE"
+FEMALE = "FEMALE"
